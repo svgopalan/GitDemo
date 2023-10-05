@@ -1,5 +1,3 @@
-
---Test QUery
 select [Routing No_],[Version Code],cast([Unit Cost per] as decimal(19,5)) as [Unit Cost per] from [dbo].[OSI Electronics Pte Ltd  SG$Routing Line]
 where [Unit Cost per] <>0 and [Routing No_]
 in 
